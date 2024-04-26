@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(135deg, red, pink, magenta);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #2583d5;
+    transition: background-color 0.5s ease;
+}
+
+.weather-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sunny {
+    background-image: linear-gradient(to right top, #fffb00, #ffdd00, #ffbf00, #ffa100, #ff8300);
+}
+
+.cloudy {
+    background-image: linear-gradient(to right top, #656d77, #5d6470, #555b69, #4d5262, #45495b);
+}
+
+.rainy {
+    background-image: linear-gradient(to right top, #4f77a1, #447aae, #3a7dbb, #3080c8, #2583d5);
+}
+
+/* Add more weather conditions and their styles here */
+
+#cityInput,
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
